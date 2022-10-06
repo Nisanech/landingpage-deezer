@@ -71,7 +71,42 @@ img {
 }
 
 /** Header **/
+.header {
+    width: 100%;
+    padding: 2rem 12.2rem;
+    box-shadow: 0 .3rem 0 0 rgb(0 0 0 / 6%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navegacion__enlace {
+    margin: 0 2rem;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #32323D;
+}
+
+.navegacion__enlace--btn {
+    width: auto;
+    padding: .8rem 2.4rem;
+    background: var(--blanco);
+    border: .2rem solid #2D96C8;
+    font-size: 1.5rem;
+    color: #2D96C8;
+}
+
+.navegacion__enlace--btn:last-of-type {
+    background: #2D96C8;
+    color: var(--blanco);
+}
 /** Hero **/
 
 /** ¿Por qué elegir deezer premium? **/
