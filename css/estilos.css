@@ -242,11 +242,55 @@ img {
 }
 /** ¿Por qué elegir deezer premium? **/
 
+.dezzer-premium{
+    padding: 120px 0px 20px;
+}
+.dezzer-premium-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.heading-2{
+    margin: 0px 0px 90px;
+    padding: 0px 220px;
+    line-height: 1;
+    text-align: center;
+    font-size: 70px;
+
+    
+}
+.grid-info-text{
+    margin: 0px 20px ;
+    width: 90%;
+    
+}
+.heading-3{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    
+}
+.parrafo{
+    margin: 0px 0px 40px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        width: 750px;
+    }
+}
+
+
 /** Elige lo que escuchas sin anuncios **/
 
 /** Escucha tu música sin conexión **/
 
 /** Conoce a tu celestino musical **/
+
+.conoce-titulo{
+    text-align: center;
+}
 
 /** Escucha tus conductores favoritos **/
 
