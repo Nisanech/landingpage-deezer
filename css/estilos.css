@@ -284,20 +284,53 @@ img {
 /** Conoce a tu celestino musical **/
 
 .conoce-titulo{
+    
     text-align: center;
+    font-size: 70px;
+    margin: 0px 24.5px;
+    align-items: center;
+    height: 60px;
 }
 .conoce-parrafo{
-    
     line-height: 1;
-    width: 50%;
-    margin:0px 0px 30px;
-    padding: 10px;
     text-align: center;
+    margin: 70px auto;
+    justify-content: center;
+    width: 590px;
+    padding: 0px 110px;
     
-    align-items: center;
+}
+
+.btn-flow{
+    padding: 1rem;
+    margin: 0 auto 30px; 
+    width: 220px  ;
+    height: 50px;
+    font-weight: bold;
+}
+.flow{
     
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
 }
+.izq{
+     background-image: url(/img/morados.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 200px;
+     height: 200px;
+     background-position: 50%;
+}
+.morados{
+    background-image: url();
+
+}
+.medio{
+    
+}
+
 
 
 /** Escucha tus conductores favoritos **/
