@@ -310,7 +310,49 @@ img {
 }
 
 /** Escucha tu música sin conexión **/
+.escucha-musica {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
 
+.escucha-musica__img {
+    height: 90rem;
+}
+
+.escucha-musica__contenido {
+    width: 60rem;
+}
+
+.escucha-musica__titulo {
+    font-size: 7rem;
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.escucha-musica__parrafo {
+    margin: 5rem 0 0 0;
+    width: 70%;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    color: var(--colorPrincipal);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.escucha-musica__parrafo span {
+    color: var(--negro);
+    font-weight: 700;
+}
+
+.escucha-musica__enlace {
+    margin: 2rem 0 0 0;
+    width: 50%;
+    font-family: var(--fuenteSecundaria);
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
 /** Conoce a tu celestino musical **/
 
 .conoce-titulo{
