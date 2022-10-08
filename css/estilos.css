@@ -284,6 +284,31 @@ img {
 
 /** Elige lo que escuchas sin anuncios **/
 
+.sin_anuncios{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.sin_anuncios h2{
+    margin-top: 150px;
+    line-height: 65px;
+}
+
+.sin_anuncios p{
+    color: #72727D;
+}
+
+.sin_anuncios strong{
+    color: #000000;
+}
+
+.sin_anuncios_banner{
+    width: 100%;
+    padding: 35px;
+}
+
 /** Escucha tu música sin conexión **/
 
 /** Conoce a tu celestino musical **/
@@ -294,11 +319,79 @@ img {
 
 /** Escucha tus conductores favoritos **/
 
+.texto_conductores{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.texto_conductores h2{
+    line-height: 65px;
+}
+
+.texto_conductores p{
+    color: #72727D;
+}
+
+.texto_conductores strong{
+    color: #000000;
+}
+
+.texto_conductores a{
+    padding-top: 50px;
+    color: #EF5466;
+    text-decoration: underline;
+}
+
+.figure-conductores{
+    padding-left: 26%;
+    padding-right: 26%;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.figure-conductores_favorito{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.figure-conductores_favorito img{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 6%);
+}
+
+.figure-conductores_favorito p{
+    color: #414147;
+    font-size: 11px;
+    padding-right: 70px;
+
+}
+
 /** Nunca dejes de hacer descubrimientos **/
 
 /** Siempre la letra correcta **/
 
 /** Sincroniza tu vida **/
+
+.sincroniza-tu-vida{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.boton-dispositivos button{
+    color: white;
+    width: 20%;
+    height: 50px;
+    background: linear-gradient(137deg, #22EFCB 15.51%, #2980FF 51.65%, #A125FF 85.09%);
+    text-align: center;
+    border-radius: 50px;
+    border: transparent ;
+}
 
 /** FAQ **/
 
