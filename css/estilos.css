@@ -407,6 +407,7 @@ img {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    margin-top: 4%;
 }
 
 .texto_conductores h2{
@@ -551,11 +552,27 @@ img {
     margin: 2%;
     }
 
+.columnas-faq_primera p{
+    color: #72727D;
+}
+
 .columnas-faq_primera button{
     height: 300px;
     width: 300px;
     background-color: transparent;
     border-color: transparent;
+}
+
+.columnas-faq_primera a{
+    text-decoration: underline;
+}
+
+.family_h{
+    color:#000000;
+}
+
+.family_p{
+    color:#000000;
 }
 
 /** Deezer Premium **/
