@@ -339,6 +339,23 @@ img {
     justify-content: center;
 }
 
+.sincroniza-tu-vida_parrafo{
+    display: flex;
+    justify-content: center;
+}
+
+.sincroniza-tu-vida_parrafo div{
+    padding: 25px;
+}
+
+.sincroniza-tu-vida_parrafo p{
+    color: #72727D;
+}
+
+.sincroniza-tu-vida_parrafo strong{
+    color: #000000;
+}
+
 .boton-dispositivos button{
     color: white;
     width: 20%;
@@ -349,7 +366,70 @@ img {
     border: transparent ;
 }
 
+.boton-dispositivos button:hover{
+    background: #000000;
+    color: white;
+    
+}
+
+
+
+.figure_dispositivos_imagenes{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 26%;
+    padding-right: 22%;
+}
+
+.figure_dispositivos_imagenes-post button{
+    height: 245px;
+    width: 245px;
+    background-color: white;
+    border-radius: 15%;
+    border: transparent;
+    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 10%);
+
+}
+
+.figure_dispositivos_imagenes-post img{
+    padding: 15%;
+}
+
+.figure_dispositivos_imagenes-post p{
+    padding-right: 25%;
+    color:#72727D;
+    font-size: 15px;
+    padding-right: 70px;
+    text-align: center;
+}
+
 /** FAQ **/
+
+.titulo-faq{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.columnas-faq_primera{
+    display: flex;
+    justify-content: center;
+}
+
+.columnas-faq_primera div{
+    margin: 2%;
+    }
+
+.columnas-faq_primera button{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border-color: transparent;
+}
 
 /** Deezer Premium **/
 
