@@ -242,6 +242,41 @@ img {
 }
 /** ¿Por qué elegir deezer premium? **/
 
+.dezzer-premium{
+    padding: 120px 0px 20px;
+}
+.dezzer-premium-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.heading-2{
+    margin: 0px 0px 90px;
+    padding: 0px 220px;
+    line-height: 1;
+    text-align: center;
+    font-size: 70px;
+
+    
+}
+.grid-info-text{
+    margin: 0px 20px ;
+    width: 90%;
+    
+}
+.heading-3{
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    
+}
+.parrafo{
+    margin: 0px 0px 40px;
+}
+
+
 /** Elige lo que escuchas sin anuncios **/
 
 .sin_anuncios{
@@ -270,8 +305,100 @@ img {
 }
 
 /** Escucha tu música sin conexión **/
+.escucha-musica {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
 
+.escucha-musica__img {
+    height: 90rem;
+}
+
+.escucha-musica__contenido {
+    width: 60rem;
+}
+
+.escucha-musica__titulo {
+    font-size: 7rem;
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.escucha-musica__parrafo {
+    margin: 5rem 0 0 0;
+    width: 70%;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+    color: var(--colorPrincipal);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.escucha-musica__parrafo span {
+    color: var(--negro);
+    font-weight: 700;
+}
+
+.escucha-musica__enlace {
+    margin: 2rem 0 0 0;
+    width: 50%;
+    font-family: var(--fuenteSecundaria);
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
 /** Conoce a tu celestino musical **/
+
+.conoce-titulo{
+    
+    text-align: center;
+    font-size: 70px;
+    margin: 0px 24.5px;
+    align-items: center;
+    height: 60px;
+}
+.conoce-parrafo{
+    line-height: 1;
+    text-align: center;
+    margin: 70px auto;
+    justify-content: center;
+    width: 590px;
+    padding: 0px 110px;
+    
+}
+
+.btn-flow{
+    padding: 1rem;
+    margin: 0 auto 30px; 
+    width: 220px  ;
+    height: 50px;
+    font-weight: bold;
+}
+.flow{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.izq{
+     background-image: url(/img/morados.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 200px;
+     height: 200px;
+     background-position: 50%;
+}
+.morados{
+    background-image: url();
+
+}
+.medio{
+    
+}
+
+
 
 /** Escucha tus conductores favoritos **/
 
