@@ -68,6 +68,14 @@ img {
     border: none;
     border-radius: 3.2rem;
     background: linear-gradient(137deg, #22EFCB 15.51%, #2980FF 51.65%, #A125FF 85.09%);
+    box-shadow: 0 .2rem 1.2rem rgba(0,0,0,.14);
+}
+
+[class*="titulo"] {
+    font-size: 7rem;
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+    line-height: 1.2;
 }
 
 /** Header **/
@@ -102,6 +110,7 @@ img {
     border: .2rem solid #2D96C8;
     font-size: 1.5rem;
     color: #2D96C8;
+    box-shadow: none;
 }
 
 .navegacion__enlace--btn:last-of-type {
@@ -319,13 +328,6 @@ img {
     width: 60rem;
 }
 
-.escucha-musica__titulo {
-    font-size: 7rem;
-    font-family: var(--fuentePrincipal);
-    margin: 0;
-    line-height: 1.2;
-}
-
 .escucha-musica__parrafo {
     margin: 5rem 0 0 0;
     width: 70%;
@@ -454,6 +456,53 @@ img {
 }
 
 /** Nunca dejes de hacer descubrimientos **/
+.descubrimientos {
+    margin-top: 10rem;
+}
+.descubrimientos__contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+}
+.titulo--descubrimientos {
+    text-align: center;
+    max-width: 70rem;
+}
+
+.descubrimiento__texto {
+    max-width: 44rem;
+    text-align: center;
+    margin: 5rem 0 0 0;
+    font-family: var(--fuentePrincipal);
+    font-size: 1.8rem;
+    color: var(--colorPrincipal);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.descubrimiento__texto span {
+    font-weight: 700;
+    color: var(--negro);
+}
+
+.descubrimiento__enlace {
+    display: inline-block;
+    max-width: 30rem;
+    margin: 3rem 0 0 0;
+    padding: 1.5rem 5.6rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.descubrimiento__imagen {
+    height: 115rem;
+    background-image: url(../img/songcatcher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
 
 /** Siempre la letra correcta **/
 
