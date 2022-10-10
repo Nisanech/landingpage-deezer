@@ -383,20 +383,14 @@ img {
 
 }
 .izq{
-     background-image: url(/img/morados.jpg);
-     background-repeat: no-repeat;
+     
      background-size: cover;
      width: 200px;
      height: 200px;
      background-position: 50%;
 }
-.morados{
-    background-image: url();
 
-}
-.medio{
-    
-}
+
 
 
 
@@ -457,6 +451,33 @@ img {
 
 /** Siempre la letra correcta **/
 
+.letra-correcta{
+    line-height: 1;
+    width: 65%;
+    
+}
+
+.letra_titulo{
+    text-align: right;
+    margin: 30px;
+    padding:30px;
+}
+.letra-parrafo{
+    line-height: 1;
+    text-align: right;
+    width: 590px;
+    padding: 0px 110px;
+}
+.btn-Descubre{
+    padding: 1.5rem;
+    margin:  30px; 
+    width: 200px  ;
+    height: 50px;
+    font-weight: bold;
+}
+.amarillo{
+    width: 30px;
+}
 /** Sincroniza tu vida **/
 
 .sincroniza-tu-vida{
