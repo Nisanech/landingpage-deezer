@@ -500,5 +500,11 @@ img {
 /** FAQ **/
 
 /** Deezer Premium **/
+.parrafo-condiciones{
+    text-align: left;
+    margin: 50px 110px;
+    padding: 1%;
+    font-size: 13px;
+}
 
 /** Footer **/
