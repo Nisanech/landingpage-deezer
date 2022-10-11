@@ -2,7 +2,13 @@
 
 Clon de la página de Deezer https://www.deezer.com/mx/offers/premium#feature-info, donde aplicamos conceptos de maquetado en HTML y CSS3, además de hacer un trabajo colaborativo con git flow.
 
-<h1 aling="center"> Deezer Clone </h1>
+<h1 align="center"> Deezer Clone </h1>
+
+![Image text](https://github.com/Nisanech/landingpage-deezer/blob/main/img/Clone-deezer.jpg)
+
+# Despliegue de la página
+
+https://clone-deezer.netlify.app/
 
 # Bitácora de Registros
 
