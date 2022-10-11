@@ -56,6 +56,13 @@ li {
     list-style: none;
 }
 
+p {
+    color: var(--colorPrincipal);
+    margin: 0;
+    font-weight: 500;
+    font-family: var(--fuentePrincipal);
+}
+
 [class*="contenedor"] {
     max-width: 120rem;
     margin: 0 auto;
@@ -75,6 +82,10 @@ li {
     box-shadow: 0 .2rem 1.2rem rgba(0,0,0,.14);
 }
 
+[class*="btn"]:hover {
+    background: var(--negro);
+}
+
 [class*="titulo"] {
     font-size: 7rem;
     font-family: var(--fuentePrincipal);
@@ -90,7 +101,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .navegacion {
@@ -124,7 +134,7 @@ li {
 
 /** Hero **/
 .hero {
-    padding: 5rem 0;
+    padding: 5rem 0 3rem 0;
     background: linear-gradient(137deg, #22EFCB 15.51%, #2980FF 51.65%, #A125FF 85.09%);
     position: relative;
 }
@@ -183,14 +193,14 @@ li {
     font-size: 8rem;
     color: var(--blanco);
     font-family: var(--fuentePrincipal);
-    margin: 6rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 
 .hero__precio {
     font-size: 2.2rem;
     color: var(--blanco);
     font-family: var(--fuentePrincipal);
-    margin: 6rem 0 0 0;
+    margin: 2rem 0 0 0;
     font-weight: 500;
 }
 
@@ -253,16 +263,18 @@ li {
     height: 3rem;
     margin-top: -.5rem;
 }
+
 /** ¿Por qué elegir deezer premium? **/
 
 .dezzer-premium{
     padding: 120px 0px 20px;
 }
+
 .dezzer-premium-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
+
 .heading-2{
     margin: 0px 0px 90px;
     padding: 0px 220px;
@@ -280,13 +292,15 @@ li {
 .heading-3{
     margin: 20px 0px;
     width: 100%;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: -1px;
-    
+    text-align: left;
 }
-.parrafo{
+.dezzer-premium__p{
     margin: 0px 0px 40px;
+    text-align: left;
+    font-family: var(--fuenteSecundaria);
 }
 
 
@@ -305,9 +319,12 @@ li {
 }
 
 .sin_anuncios p{
-    color: #72727D;
+    color: var(--colorPrincipal);
 }
 
+.sin_anuncios-p {
+    margin-top: 2.5rem;
+}
 .sin_anuncios strong{
     color: #000000;
 }
@@ -315,6 +332,7 @@ li {
 .sin_anuncios_banner{
     width: 100%;
     padding: 35px;
+    margin-top: 5rem;
 }
 
 /** Escucha tu música sin conexión **/
@@ -322,6 +340,7 @@ li {
     display: flex;
     align-items: center;
     gap: 5rem;
+    margin-top: 12rem;
 }
 
 .escucha-musica__img {
@@ -354,54 +373,148 @@ li {
     font-weight: 700;
     padding: 1.5rem 0;
 }
+
 /** Conoce a tu celestino musical **/
+.conoce {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .conoce-titulo{
-    
     text-align: center;
     font-size: 70px;
-    margin: 0px 24.5px;
+    margin: 0px auto;
     align-items: center;
-    height: 60px;
+    max-width: 80rem;
 }
+
 .conoce-parrafo{
-    line-height: 1;
-    text-align: center;
-    margin: 70px auto;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    align-items: center;
     width: 590px;
     padding: 0px 110px;
-    
 }
 
-.btn-flow{
-    padding: 1rem;
-    margin: 0 auto 30px; 
-    width: 220px  ;
-    height: 50px;
-    font-weight: bold;
+.parrafo {
+    margin: 0;
+    text-align: center;
+    max-width: 30rem;
+    font-family: var(--fuentePrincipal);
+    font-weight: 500;
 }
-.flow{
-    
+
+.parrafo:nth-child(2) {
+    margin-top: 3rem;
+    max-width: 40rem;
+}
+
+.parrafo span {
+    color: var(--negro);
+    font-weight: 700;
+}
+.enlace__flow{
+    margin: 2rem 0 0 0;
+    width: 59%;
+    font-family: var(--fuenteSecundaria);
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+
+.enlace__flow:hover {
+    background-color: var(--negro);
+}
+.conoce__galeria{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-
-}
-.izq{
-     
-     background-size: cover;
-     width: 200px;
-     height: 200px;
-     background-position: 50%;
+    grid-template-columns: 20% 38% 20%;
+    justify-content: center;
 }
 
+.subt {
 
+    margin: 0;
+    padding: .5rem 1rem;
+    color: var(--blanco);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left;
+}
 
+.descubrir {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/morados.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.5rem;
+    width: 16.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #c1c1c1;
+}
 
+.lanzamientos {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/azules.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.5rem;
+    width: 16.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #c1c1c1;
+}
+
+.flow {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/flow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39rem;
+    height: 39rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #c1c1c1;
+}
+
+.subt-flow {
+    font-size: 6rem;
+    margin: 3rem 0 0 1rem;
+}
+
+.flow-p {
+    max-width: 35rem;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    margin: 0 3rem;
+} 
+
+.chill {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/verdes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16.5rem;
+    width: 16.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #c1c1c1;
+}
+
+.descubrir-p,
+.lanzamientos-p,
+.chill-p {
+    max-width: 16.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 0;
+}
 
 /** Escucha tus conductores favoritos **/
-
 .texto_conductores{
     display: flex;
     flex-direction: column;
@@ -412,10 +525,11 @@ li {
 
 .texto_conductores h2{
     line-height: 65px;
+    font-size: 7rem;
 }
 
 .texto_conductores p{
-    color: #72727D;
+    color: var(--colorPrincipal);
 }
 
 .texto_conductores strong{
@@ -426,6 +540,8 @@ li {
     padding-top: 50px;
     color: #EF5466;
     text-decoration: underline;
+    font-family: var(--fuenteSecundaria);
+    font-size: 1.4rem;
 }
 
 .figure-conductores{
@@ -436,6 +552,7 @@ li {
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    gap: 4rem;
 }
 
 .figure-conductores_favorito{
@@ -444,14 +561,16 @@ li {
 }
 .figure-conductores_favorito img{
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 6%);
+    box-shadow: 0 0 20px #d2d2d2;
+    height: auto;
+    width: auto;
 }
 
 .figure-conductores_favorito p{
     color: #414147;
     font-size: 11px;
-    padding-right: 70px;
-
+    margin-top: 1rem;
+    text-align: center;
 }
 
 /** Nunca dejes de hacer descubrimientos **/
@@ -506,32 +625,46 @@ li {
 /** Siempre la letra correcta **/
 
 .letra-correcta{
-    line-height: 1;
-    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
-.letra_titulo{
-    text-align: right;
-    margin: 30px;
-    padding:30px;
+.letra-correcta__contenido {
+    width: 58rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
+
+.letra-correcta__titulo{
+    text-align: right;
+}
+
 .letra-parrafo{
-    line-height: 1;
     text-align: right;
-    width: 590px;
-    padding: 0px 110px;
+    max-width: 37rem;
+    margin-top: 5rem;
+    font-weight: 500;
 }
-.btn-Descubre{
-    padding: 1.5rem;
-    margin:  30px; 
-    width: 200px  ;
-    height: 50px;
-    font-weight: bold;
+
+.letra-parrafo span {
+    color: var(--negro);
+    font-weight: 700;
 }
-.amarillo{
-    width: 30px;
+.letra-correcta__enlace {
+    margin: 4rem 0 0 0;
+    width: 42%;
+    font-family: var(--fuenteSecundaria);
+    font-weight: 700;
+    padding: 1.5rem 0;
 }
+
+.letra-correcta__img {
+    height: 90rem;
+}
+
 /** Sincroniza tu vida **/
 
 .sincroniza-tu-vida{
@@ -539,11 +672,17 @@ li {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    margin-top: 5rem;
 }
 
+.sincroniza-tu-vida h2 {
+    font-size: 7rem;
+    margin: 0;
+}
 .sincroniza-tu-vida_parrafo{
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .sincroniza-tu-vida_parrafo div{
@@ -560,7 +699,7 @@ li {
 
 .boton-dispositivos button{
     color: white;
-    width: 20%;
+    width: 30%;
     height: 50px;
     background: linear-gradient(137deg, #22EFCB 15.51%, #2980FF 51.65%, #A125FF 85.09%);
     text-align: center;
@@ -574,15 +713,14 @@ li {
     
 }
 
-
-
 .figure_dispositivos_imagenes{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25%;
     grid-template-rows: 1fr;
-    padding-left: 26%;
-    padding-right: 22%;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    justify-content: center;
 }
 
 .figure_dispositivos_imagenes-post button{
@@ -591,7 +729,7 @@ li {
     background-color: white;
     border-radius: 15%;
     border: transparent;
-    box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 20px #d2d2d2;
 
 }
 
@@ -601,14 +739,15 @@ li {
 
 .figure_dispositivos_imagenes-post p{
     padding-right: 25%;
-    color:#72727D;
-    font-size: 15px;
+    color: var(--colorPrincipal);
+    font-size: 16px;
     padding-right: 70px;
     text-align: center;
+    margin-top: 1rem;
+    font-family: var(--fuenteSecundaria);
 }
 
 /** FAQ **/
-
 .titulo-faq{
     display: flex;
     flex-direction: column;
@@ -627,7 +766,8 @@ li {
     }
 
 .columnas-faq_primera p{
-    color: #72727D;
+    color: var(--colorPrincipal);
+    font-family: var(--fuenteSecundaria);
 }
 
 .columnas-faq_primera button{
@@ -650,11 +790,18 @@ li {
 }
 
 /** Deezer Premium **/
+.deezer-premium {
+    margin-top: 10rem;
+}
+
 .parrafo-condiciones{
     text-align: left;
-    margin: 50px 110px;
+    margin: 2rem auto;
     padding: 1%;
-    font-size: 13px;
+    font-size: 12px;
+    font-family: var(--fuenteSecundaria);
+    max-width: 92rem;
+    color: var(--colorPrincipal);
 }
 
 /** Footer **/
